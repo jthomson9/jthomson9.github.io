@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  <subtitle>Learning how to use hexo</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://jthomson9.github.io/"/>
+  <updated>2016-04-22T13:36:13.000Z</updated>
+  <id>http://jthomson9.github.io/</id>
+  
+  <author>
+    <name>John Thomson</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://jthomson9.github.io/Hello-World-0/"/>
+    <id>http://jthomson9.github.io/Hello-World-0/</id>
+    <published>2016-04-22T09:46:30.000Z</published>
+    <updated>2016-04-22T13:36:13.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;../Hello-World-0/Optimized-IMG_5292.jpg&quot; alt=&quot;Some image&quot;&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;../Hello-World-0/Optimized-IMG_5292.jpg&quot; alt=&quot;Some image&quot;&gt;&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="Javascript" scheme="http://jthomson9.github.io/categories/Javascript/"/>
+    
+    
+      <category term="Hexo" scheme="http://jthomson9.github.io/tags/Hexo/"/>
+    
+      <category term="NodeJS" scheme="http://jthomson9.github.io/tags/NodeJS/"/>
+    
+      <category term="Static Website" scheme="http://jthomson9.github.io/tags/Static-Website/"/>
+    
+      <category term="Github Pages" scheme="http://jthomson9.github.io/tags/Github-Pages/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://jthomson9.github.io/hello-world/"/>
+    <id>http://jthomson9.github.io/hello-world/</id>
+    <published>2016-04-22T09:46:25.000Z</published>
+    <updated>2016-04-22T13:58:45.000Z</updated>
+    
+    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Installation&quot;&gt;&lt;a href=&quot;#Installation&quot; class=&quot;headerlink&quot; title=&quot;Installation&quot;&gt;&lt;/a&gt;Installation&lt;/h2&gt;&lt;h3 id=&quot;Install&quot;&gt;&lt;a href=&quot;#Install&quot; class=&quot;headerlink&quot; title=&quot;Install&quot;&gt;&lt;/a&gt;Install&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ git &lt;span class=&quot;built_in&quot;&gt;clone&lt;/span&gt; https://github.com/ppoffice/hexo-theme-icarus.git themes/icarus&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;Icarus requires Hexo 3.0 and above.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Enable&quot;&gt;&lt;a href=&quot;#Enable&quot; class=&quot;headerlink&quot; title=&quot;Enable&quot;&gt;&lt;/a&gt;Enable&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Rename &lt;code&gt;themes\icarus\_config.yml.example&lt;/code&gt; to &lt;code&gt;themes\icarus\_config.yml&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Copy &lt;code&gt;themes\icarus\_config.yml.site.example&lt;/code&gt; to your hexo blog’s root directory and rename it to &lt;code&gt;_config.yml&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Copy &lt;code&gt;themes\icarus\_source\*&lt;/code&gt; into your hexo blog’s directory &lt;code&gt;source&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Then modify &lt;code&gt;theme&lt;/code&gt; setting in &lt;code&gt;_config.yml&lt;/code&gt; to &lt;code&gt;icarus&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;Update&quot;&gt;&lt;a href=&quot;#Update&quot; class=&quot;headerlink&quot; title=&quot;Update&quot;&gt;&lt;/a&gt;Update&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; themes/icarus&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git pull&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;Configuration&quot;&gt;&lt;a href=&quot;#Configuration&quot; class=&quot;headerlink&quot; title=&quot;Configuration&quot;&gt;&lt;/a&gt;Configuration&lt;/h2&gt;&lt;h3 id=&quot;Theme-configuration-example&quot;&gt;&lt;a href=&quot;#Theme-configuration-example&quot; class=&quot;headerlink&quot; title=&quot;Theme configuration example&quot;&gt;&lt;/a&gt;Theme configuration example&lt;/h3&gt;&lt;figure class=&quot;highlight r&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;41&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Header&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;menu:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  Home: .&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  Archives: archives&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  Categories: categories &lt;span class=&quot;comment&quot;&gt;# you need to add extra page to enable this, please see the config below.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  Tags: tags             &lt;span class=&quot;comment&quot;&gt;# you need to add extra page to enable this, please see the config below.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  About: about&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Content&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;excerpt_link: Read More&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;fancybox: true&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Sidebar&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sidebar: right&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;widgets:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;- recent_posts&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;- category&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;- tag&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;- tagcloud&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;- archive&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;thumbnail: true&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Contacts&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;contacts:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  github: http://github.com/ppoffice/hexo-theme-icarus&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  twitter: &lt;span class=&quot;string&quot;&gt;&#39;#&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  facebook: &lt;span class=&quot;string&quot;&gt;&#39;#&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  dribbble: &lt;span class=&quot;string&quot;&gt;&#39;#&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  rss: atom.xml&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Links&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;links:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  Hexo: http://hexo.io&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Miscellaneous&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;google_analytics:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;favicon: favicon.png&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;twitter:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;google_plus:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;fb_admins:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;fb_app_id:&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;excerpt_link&lt;/strong&gt; - Cooperate with &lt;code&gt;&amp;lt;!-- more --&amp;gt;&lt;/code&gt; tag to show only part of the article in index pages.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;fancybox&lt;/strong&gt; - Enable &lt;a href=&quot;http://fancyapps.com/fancybox/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Fancybox&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;contacts&lt;/strong&gt; - Your social network links, RSS link, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;widgets&lt;/strong&gt; - Widgets displaying in sidebar.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;thumbnail&lt;/strong&gt; - Whether to show post thumbnails in the sidebar and archive pages.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;links&lt;/strong&gt; - Links displayed in the link widget.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;google_analytics&lt;/strong&gt; - Google Analytics ID.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;favicon&lt;/strong&gt; - Favicon path.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Site-configuration-example&quot;&gt;&lt;a href=&quot;#Site-configuration-example&quot; class=&quot;headerlink&quot; title=&quot;Site configuration example&quot;&gt;&lt;/a&gt;Site configuration example&lt;/h3&gt;&lt;figure class=&quot;highlight r&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Site&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;title: Icarus&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;subtitle:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;description: Hexo theme - Icarus&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;author: PPOffice&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;author_title: &lt;span class=&quot;string&quot;&gt;&#39;Web Developer &amp;amp; Designer&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;avatar: css/images/avatar.png&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;location: &lt;span class=&quot;string&quot;&gt;&#39;Harbin, China&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;language: en&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;timezone:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;...&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Disqus&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;disqus_shortname:&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;author&lt;/strong&gt; - Your name.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;author_title&lt;/strong&gt; - Title to your occupation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;avatar&lt;/strong&gt; - Your avatar image link.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;location&lt;/strong&gt; - Where you live in.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;disqus_shortname&lt;/strong&gt; - Your Disqus shortname.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Post-Thumbnail-amp-Banner&quot;&gt;&lt;a href=&quot;#Post-Thumbnail-amp-Banner&quot; class=&quot;headerlink&quot; title=&quot;Post Thumbnail &amp;amp; Banner&quot;&gt;&lt;/a&gt;Post Thumbnail &amp;amp; Banner&lt;/h3&gt;&lt;p&gt;You can add a thumbnail and a banner to each post by adding the following lines into your post source files’ front-matter:&lt;br&gt;&lt;figure class=&quot;highlight r&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;title: Demo&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;date: &lt;span class=&quot;number&quot;&gt;2015&lt;/span&gt;-&lt;span class=&quot;number&quot;&gt;01&lt;/span&gt;-&lt;span class=&quot;number&quot;&gt;01&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;...&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# add those&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;thumbnail: http://example.com/thumbnail.jpg&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;banner: http://example.com/banner.jpg&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Custom-Categories-amp-Tags-Pages&quot;&gt;&lt;a href=&quot;#Custom-Categories-amp-Tags-Pages&quot; class=&quot;headerlink&quot; title=&quot;Custom Categories &amp;amp; Tags Pages&quot;&gt;&lt;/a&gt;Custom Categories &amp;amp; Tags Pages&lt;/h3&gt;&lt;p&gt;To enable custom categories page and tags page, just copy the &lt;code&gt;categories&lt;/code&gt; folder and &lt;code&gt;tags&lt;/code&gt; folder under your theme’s &lt;code&gt;_source&lt;/code&gt; foler into your site’s &lt;code&gt;source&lt;/code&gt; folder. Then edit theme’s _config.yml and add the following lines:&lt;br&gt;&lt;figure class=&quot;highlight r&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Header&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;menu:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;...&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  Categories: categories &lt;span class=&quot;comment&quot;&gt;# -&amp;gt; add this line&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  Tags: tags &lt;span class=&quot;comment&quot;&gt;# -&amp;gt; and add this line&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;...&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Languages&quot;&gt;&lt;a href=&quot;#Languages&quot; class=&quot;headerlink&quot; title=&quot;Languages&quot;&gt;&lt;/a&gt;Languages&lt;/h3&gt;&lt;p&gt;English and Simplified Chinese are the default languages of the theme. You can add translations in the &lt;code&gt;languages&lt;/code&gt; folder and change the default language in blog’s &lt;code&gt;_config.yml&lt;/code&gt;.&lt;/p&gt;
+&lt;figure class=&quot;highlight r&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;language: zh-CN&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;Features&quot;&gt;&lt;a href=&quot;#Features&quot; class=&quot;headerlink&quot; title=&quot;Features&quot;&gt;&lt;/a&gt;Features&lt;/h2&gt;&lt;h3 id=&quot;Profile-Sidebar&quot;&gt;&lt;a href=&quot;#Profile-Sidebar&quot; class=&quot;headerlink&quot; title=&quot;Profile Sidebar&quot;&gt;&lt;/a&gt;Profile Sidebar&lt;/h3&gt;&lt;p&gt;A nice place to show yourself. You can add your own information in your site’s &lt;code&gt;_config.yml&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ppoffice.github.io/hexo-theme-icarus/gallery/profile.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Post-Banner-amp-Thumbnail&quot;&gt;&lt;a href=&quot;#Post-Banner-amp-Thumbnail&quot; class=&quot;headerlink&quot; title=&quot;Post Banner &amp;amp; Thumbnail&quot;&gt;&lt;/a&gt;Post Banner &amp;amp; Thumbnail&lt;/h3&gt;&lt;p&gt;Thanks to &lt;a href=&quot;https://github.com/atika&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;atika&lt;/a&gt;, you can now add thumbnails and banners to every post to create better reading experience.&lt;/p&gt;
+&lt;h3 id=&quot;Responsive-Layout&quot;&gt;&lt;a href=&quot;#Responsive-Layout&quot; class=&quot;headerlink&quot; title=&quot;Responsive Layout&quot;&gt;&lt;/a&gt;Responsive Layout&lt;/h3&gt;&lt;p&gt;Icarus knows on what screen size you are browsering the website, and reorganize the layout to fit your device.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ppoffice.github.io/hexo-theme-icarus/gallery/responsive.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Custom-Categories-amp-Tags-Pages-1&quot;&gt;&lt;a href=&quot;#Custom-Categories-amp-Tags-Pages-1&quot; class=&quot;headerlink&quot; title=&quot;Custom Categories &amp;amp; Tags Pages&quot;&gt;&lt;/a&gt;Custom Categories &amp;amp; Tags Pages&lt;/h3&gt;&lt;p&gt;Get your categories and tags listed in single pages to make your blog more methodic.&lt;/p&gt;
+&lt;h3 id=&quot;Fancybox&quot;&gt;&lt;a href=&quot;#Fancybox&quot; class=&quot;headerlink&quot; title=&quot;Fancybox&quot;&gt;&lt;/a&gt;Fancybox&lt;/h3&gt;&lt;p&gt;Icarus uses &lt;a href=&quot;http://fancyapps.com/fancybox/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Fancybox&lt;/a&gt; to showcase your photos. You can use Markdown syntax or fancybox tag plugin to add your photos.&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;![img caption](img url)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;Sidebar&quot;&gt;&lt;a href=&quot;#Sidebar&quot; class=&quot;headerlink&quot; title=&quot;Sidebar&quot;&gt;&lt;/a&gt;Sidebar&lt;/h3&gt;&lt;p&gt;Icarus provides 6 built-in widgets:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;recent_posts&lt;/li&gt;
+&lt;li&gt;category&lt;/li&gt;
+&lt;li&gt;archives&lt;/li&gt;
+&lt;li&gt;tag&lt;/li&gt;
+&lt;li&gt;tagcloud&lt;/li&gt;
+&lt;li&gt;links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All of them are enabled by default. You can edit them in &lt;code&gt;widget&lt;/code&gt; setting.&lt;/p&gt;
+&lt;h2 id=&quot;Development&quot;&gt;&lt;a href=&quot;#Development&quot; class=&quot;headerlink&quot; title=&quot;Development&quot;&gt;&lt;/a&gt;Development&lt;/h2&gt;&lt;h3 id=&quot;Requirements&quot;&gt;&lt;a href=&quot;#Requirements&quot; class=&quot;headerlink&quot; title=&quot;Requirements&quot;&gt;&lt;/a&gt;Requirements&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://gruntjs.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Grunt&lt;/a&gt; 0.4+&lt;/li&gt;
+&lt;li&gt;Hexo 3.0+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Grunt-tasks&quot;&gt;&lt;a href=&quot;#Grunt-tasks&quot; class=&quot;headerlink&quot; title=&quot;Grunt tasks&quot;&gt;&lt;/a&gt;Grunt tasks&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;default&lt;/strong&gt; - Download &lt;a href=&quot;http://fancyapps.com/fancybox/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Fancybox&lt;/a&gt; and &lt;a href=&quot;http://fontawesome.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Font Awesome&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;fontawesome&lt;/strong&gt; - Only download &lt;a href=&quot;http://fontawesome.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Font Awesome&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;fancybox&lt;/strong&gt; - Only download &lt;a href=&quot;http://fancyapps.com/fancybox/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Fancybox&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;clean&lt;/strong&gt; - Clean temporarily files and downloaded files.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+      <category term="Javascript" scheme="http://jthomson9.github.io/categories/Javascript/"/>
+    
+    
+      <category term="Hexo" scheme="http://jthomson9.github.io/tags/Hexo/"/>
+    
+      <category term="NodeJS" scheme="http://jthomson9.github.io/tags/NodeJS/"/>
+    
+      <category term="Static Website" scheme="http://jthomson9.github.io/tags/Static-Website/"/>
+    
+      <category term="Github Pages" scheme="http://jthomson9.github.io/tags/Github-Pages/"/>
+    
+  </entry>
+  
+</feed>
