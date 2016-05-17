@@ -160,11 +160,11 @@ var _hmt = _hmt || [];
         </div>
         <div class="article-info profile-block">
             <div class="article-info-block">
-                2
+                3
                 <span>posts</span>
             </div>
             <div class="article-info-block">
-                4
+                8
                 <span>tags</span>
             </div>
         </div>
@@ -190,6 +190,205 @@ var _hmt = _hmt || [];
 
             
             <section id="main">
+    <article id="post-How-To-Deploy-A-Website" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/How-To-Deploy-A-Website/">How To Deploy A Website</a>
+        </h1>
+    
+
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/How-To-Deploy-A-Website/">
+            <time datetime="2016-05-17T12:11:10.000Z" itemprop="datePublished">2016-05-17</time>
+        </a>
+    </div>
+
+
+                    
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/Web-Development/">Web Development</a>
+    </div>
+
+                    
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/AWS/">AWS</a>, <a class="tag-link" href="/tags/Codecademy/">Codecademy</a>, <a class="tag-link" href="/tags/GitHub/">GitHub</a>, <a class="tag-link" href="/tags/Web/">Web</a>
+    </div>
+
+                </div>
+            </header>
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <p>I’m basing this post on the Codecademy course, <a href="https://www.codecademy.com/courses/deploy-a-website" target="_blank" rel="external">Deploy a Website</a>. And I’m going to just assume that you already have a static page ready for deployment and basic knowledge of git and the command line tool. This isn’t a tutorial, it’s as much for my own benefit, to learn it myself.</p>
+<h2 id="Deploy-your-website-to-GitHub-Pages"><a href="#Deploy-your-website-to-GitHub-Pages" class="headerlink" title="Deploy your website to GitHub Pages"></a>Deploy your website to GitHub Pages</h2><h3 id="Step-1-Create-account-and-repo"><a href="#Step-1-Create-account-and-repo" class="headerlink" title="Step 1: Create account and repo"></a>Step 1: Create account and repo</h3><p>If you don’t already have a GitHub account, create one and then create a repo. Your repo’s name must follow the GitHub naming convention:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">your-user-name.github.io</span><br></pre></td></tr></table></figure></p>
+<h3 id="Step-2-Initialise-the-repo"><a href="#Step-2-Initialise-the-repo" class="headerlink" title="Step 2: Initialise the repo"></a>Step 2: Initialise the repo</h3><p>Navigate into the directory using the cd command and run:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure></p>
+<h3 id="Step-3-Add-the-remote"><a href="#Step-3-Add-the-remote" class="headerlink" title="Step 3: Add the remote"></a>Step 3: Add the remote</h3><p>In the terminal, you can add the remote with the following command:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin https://github.com/your-user-name/your-user-name.github.io.git</span><br></pre></td></tr></table></figure></p>
+<p>Make sure you replace<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">your-user-name</span><br></pre></td></tr></table></figure></p>
+<p>with your actual username.</p>
+<h3 id="Step-4-Commit-changes"><a href="#Step-4-Commit-changes" class="headerlink" title="Step 4: Commit changes"></a>Step 4: Commit changes</h3><p>Git needs to know which files to push. We want to add all the site’s content:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure></p>
+<p>Now commit:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m <span class="string">"Save my work"</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="Step-5-Deploy-your-site"><a href="#Step-5-Deploy-your-site" class="headerlink" title="Step 5: Deploy your site"></a>Step 5: Deploy your site</h3><p>Use Git to push the contents of your site to your repo:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure></p>
+<p>You will be prompted to enter your GitHub username and password.</p>
+<h3 id="That’s-it"><a href="#That’s-it" class="headerlink" title="That’s it!"></a>That’s it!</h3><p>Your site is published. Open up your browser and enter the URL “your-user-name.github.io”.</p>
+<h2 id="Assign-a-custom-domain-name-to-your-website"><a href="#Assign-a-custom-domain-name-to-your-website" class="headerlink" title="Assign a custom domain name to your website"></a>Assign a custom domain name to your website</h2><h3 id="Step-1-Create-an-AWS-account"><a href="#Step-1-Create-an-AWS-account" class="headerlink" title="Step 1: Create an AWS account"></a>Step 1: Create an AWS account</h3><p>Do this at <a href="https://aws.amazon.com" target="_blank" rel="external">Amazon Web Services</a>.</p>
+<h3 id="Step-2-Register-your-domain"><a href="#Step-2-Register-your-domain" class="headerlink" title="Step 2: Register your domain"></a>Step 2: Register your domain</h3><ol>
+<li>Log into your AWS account and click on “Route 53” in the console under “Networking”.</li>
+<li>On the next page, click “Get Started Now” under “Domain Registration”.</li>
+<li>Click the button “Register Domain”.</li>
+<li>Choose a domain name and then select a suffix, like [.com] or [.io].</li>
+</ol>
+<p>Wahey! You’re the now the proud owner of your very own custom domain name!</p>
+<h3 id="Step-3-Setting-Up"><a href="#Step-3-Setting-Up" class="headerlink" title="Step 3: Setting Up"></a>Step 3: Setting Up</h3><p>We still have a few things to do before your domain name can work:</p>
+<ol>
+<li>Inform GitHub of the new domain name</li>
+<li>Set up DNS records in Route 53</li>
+</ol>
+<h4 id="Inform-GitHub"><a href="#Inform-GitHub" class="headerlink" title="Inform GitHub"></a>Inform GitHub</h4><ol>
+<li>Open GitHub and access the repo: [your-user-name.github.io]</li>
+<li>Click the “New file” button.</li>
+<li>Call it [CNAME] and do not add an extension.</li>
+<li><p>Open the file and add your custom domain name to line 1:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yourcustomdomain.com</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Commit the new file: </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m <span class="string">"Add CNAME file"</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Under the title of the repo, click on “Settings”. Find the section “GitHub Pages” and check that there’s a message along the lines of:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Your site is published at http://yourcustomdomain.com</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h4 id="Set-up-DNS-records"><a href="#Set-up-DNS-records" class="headerlink" title="Set up DNS records"></a>Set up DNS records</h4><ol>
+<li>Access Route 53 on AWS</li>
+<li>Click on “Hosted Zones” - you’ll notice a Hosted Zone for your domain name. Open it.</li>
+<li>Confirm NS record:<ol>
+<li>Notice the Hosted Zone already has an NS record with four values. Take a note of these.</li>
+<li>On the left, click “Registered domains” then click your domain name.</li>
+<li>On the right, look for the section titled “Name Servers”. These should be the same as what was in the NS record in the Hosted Zone.</li>
+</ol>
+</li>
+<li><p>Create an A record:</p>
+<ol>
+<li>In your Hosted Zone, click the “Create Record Set” button. In the form, leave the “Name” field blank. Set the “Type” to [A - IPv4 address].</li>
+<li>Set “TTL (Seconds)” to [300]</li>
+<li><p>In the “Value” box, enter the following IP addresses:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">192.30.252.153</span><br><span class="line">192.30.252.154</span><br></pre></td></tr></table></figure>
+<p>These belong to GitHub.</p>
+</li>
+<li>Click “Save Record Set”.</li>
+</ol>
+</li>
+<li>Create a CNAME record<ol>
+<li>In your Hosted Zone, click the “Create Record Set” button.</li>
+<li>Set “Name” to [www]</li>
+<li>Set “Field” to [CNAME - Canonical name]</li>
+<li>Set “Value” to [your-user-name.github.io]</li>
+<li>Click “Save Record Set”.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Aaaand-we’re-done"><a href="#Aaaand-we’re-done" class="headerlink" title="Aaaand we’re done!"></a>Aaaand we’re done!</h2><p>It should all be working now. If you go into your browser and enter your domain name into the URL you should be able to see your website.<br>Just to be sure, type the following into the terminal:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dig www.yourcustomdomain.com</span><br></pre></td></tr></table></figure>
+<p>If all goes well, you should see an [A] along with the two IP addresses. You should also see [CNAME] with your custom domain name and the GitHub default domain name.</p>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="http://jthomson9.github.io/How-To-Deploy-A-Website/" data-id="ciobef40v0000szp9uu02fn03" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="/How-To-Deploy-A-Website/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="/How-To-Deploy-A-Website/">Comments</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
     <article id="post-We-The-North" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
@@ -242,7 +441,7 @@ var _hmt = _hmt || [];
 
 </div>
 
-    <a data-url="http://jthomson9.github.io/We-The-North/" data-id="cio5lo039000044p907tvukhw" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://jthomson9.github.io/We-The-North/" data-id="ciobef4130002szp9ts0drivq" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -450,7 +649,7 @@ var _hmt = _hmt || [];
 
 </div>
 
-    <a data-url="http://jthomson9.github.io/hello-world/" data-id="cio5lo04d000b44p9ocns2w8s" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://jthomson9.github.io/hello-world/" data-id="ciobef4160003szp96rwp7rdw" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -540,6 +739,25 @@ var _hmt = _hmt || [];
                     <li>
                         
                         <div class="item-thumbnail">
+                            <a href="/How-To-Deploy-A-Website/" class="thumbnail">
+    
+    
+        <span style="background-image:url(../How-To-Deploy-A-Website/deploy.jpg)" alt="How To Deploy A Website" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Web-Development/">Web Development</a></p>
+                            <p class="item-title"><a href="/How-To-Deploy-A-Website/" class="title">How To Deploy A Website</a></p>
+                            <p class="item-date"><time datetime="2016-05-17T12:11:10.000Z" itemprop="datePublished">2016-05-17</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
                             <a href="/We-The-North/" class="thumbnail">
     
     
@@ -584,7 +802,7 @@ var _hmt = _hmt || [];
     <div class="widget-wrap">
         <h3 class="widget-title">categories</h3>
         <div class="widget">
-            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/General/">General</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Javascript/">Javascript</a><span class="category-list-count">1</span></li></ul>
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/General/">General</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Javascript/">Javascript</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Web-Development/">Web Development</a><span class="category-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -593,7 +811,7 @@ var _hmt = _hmt || [];
     <div class="widget-wrap">
         <h3 class="widget-title">archives</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a><span class="archive-list-count">2</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">May 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a><span class="archive-list-count">2</span></li></ul>
         </div>
     </div>
 
@@ -602,7 +820,7 @@ var _hmt = _hmt || [];
     <div class="widget-wrap">
         <h3 class="widget-title">tags</h3>
         <div class="widget">
-            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Github-Pages/">Github Pages</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/">Hexo</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/NodeJS/">NodeJS</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Static-Website/">Static Website</a><span class="tag-list-count">2</span></li></ul>
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/AWS/">AWS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Codecademy/">Codecademy</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/GitHub/">GitHub</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Github-Pages/">Github Pages</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/">Hexo</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/NodeJS/">NodeJS</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Static-Website/">Static Website</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Web/">Web</a><span class="tag-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -611,7 +829,7 @@ var _hmt = _hmt || [];
     <div class="widget-wrap">
         <h3 class="widget-title">tag cloud</h3>
         <div class="widget tagcloud">
-            <a href="/tags/Github-Pages/" style="font-size: 10px;">Github Pages</a> <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/NodeJS/" style="font-size: 10px;">NodeJS</a> <a href="/tags/Static-Website/" style="font-size: 10px;">Static Website</a>
+            <a href="/tags/AWS/" style="font-size: 10px;">AWS</a> <a href="/tags/Codecademy/" style="font-size: 10px;">Codecademy</a> <a href="/tags/GitHub/" style="font-size: 10px;">GitHub</a> <a href="/tags/Github-Pages/" style="font-size: 20px;">Github Pages</a> <a href="/tags/Hexo/" style="font-size: 20px;">Hexo</a> <a href="/tags/NodeJS/" style="font-size: 20px;">NodeJS</a> <a href="/tags/Static-Website/" style="font-size: 20px;">Static Website</a> <a href="/tags/Web/" style="font-size: 10px;">Web</a>
         </div>
     </div>
 

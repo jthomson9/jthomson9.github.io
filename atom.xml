@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jthomson9.github.io/"/>
-  <updated>2016-04-22T15:41:25.000Z</updated>
+  <updated>2016-05-17T13:27:32.000Z</updated>
   <id>http://jthomson9.github.io/</id>
   
   <author>
@@ -14,6 +14,104 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>How To Deploy A Website</title>
+    <link href="http://jthomson9.github.io/How-To-Deploy-A-Website/"/>
+    <id>http://jthomson9.github.io/How-To-Deploy-A-Website/</id>
+    <published>2016-05-17T12:11:10.000Z</published>
+    <updated>2016-05-17T13:27:32.000Z</updated>
+    
+    <content type="html">&lt;p&gt;I’m basing this post on the Codecademy course, &lt;a href=&quot;https://www.codecademy.com/courses/deploy-a-website&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deploy a Website&lt;/a&gt;. And I’m going to just assume that you already have a static page ready for deployment and basic knowledge of git and the command line tool. This isn’t a tutorial, it’s as much for my own benefit, to learn it myself.&lt;/p&gt;
+&lt;h2 id=&quot;Deploy-your-website-to-GitHub-Pages&quot;&gt;&lt;a href=&quot;#Deploy-your-website-to-GitHub-Pages&quot; class=&quot;headerlink&quot; title=&quot;Deploy your website to GitHub Pages&quot;&gt;&lt;/a&gt;Deploy your website to GitHub Pages&lt;/h2&gt;&lt;h3 id=&quot;Step-1-Create-account-and-repo&quot;&gt;&lt;a href=&quot;#Step-1-Create-account-and-repo&quot; class=&quot;headerlink&quot; title=&quot;Step 1: Create account and repo&quot;&gt;&lt;/a&gt;Step 1: Create account and repo&lt;/h3&gt;&lt;p&gt;If you don’t already have a GitHub account, create one and then create a repo. Your repo’s name must follow the GitHub naming convention:&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;your-user-name.github.io&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Step-2-Initialise-the-repo&quot;&gt;&lt;a href=&quot;#Step-2-Initialise-the-repo&quot; class=&quot;headerlink&quot; title=&quot;Step 2: Initialise the repo&quot;&gt;&lt;/a&gt;Step 2: Initialise the repo&lt;/h3&gt;&lt;p&gt;Navigate into the directory using the cd command and run:&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git init&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Step-3-Add-the-remote&quot;&gt;&lt;a href=&quot;#Step-3-Add-the-remote&quot; class=&quot;headerlink&quot; title=&quot;Step 3: Add the remote&quot;&gt;&lt;/a&gt;Step 3: Add the remote&lt;/h3&gt;&lt;p&gt;In the terminal, you can add the remote with the following command:&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git remote add origin https://github.com/your-user-name/your-user-name.github.io.git&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Make sure you replace&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;your-user-name&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;with your actual username.&lt;/p&gt;
+&lt;h3 id=&quot;Step-4-Commit-changes&quot;&gt;&lt;a href=&quot;#Step-4-Commit-changes&quot; class=&quot;headerlink&quot; title=&quot;Step 4: Commit changes&quot;&gt;&lt;/a&gt;Step 4: Commit changes&lt;/h3&gt;&lt;p&gt;Git needs to know which files to push. We want to add all the site’s content:&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git add .&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Now commit:&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git commit -m &lt;span class=&quot;string&quot;&gt;&quot;Save my work&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Step-5-Deploy-your-site&quot;&gt;&lt;a href=&quot;#Step-5-Deploy-your-site&quot; class=&quot;headerlink&quot; title=&quot;Step 5: Deploy your site&quot;&gt;&lt;/a&gt;Step 5: Deploy your site&lt;/h3&gt;&lt;p&gt;Use Git to push the contents of your site to your repo:&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git push -u origin master&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;You will be prompted to enter your GitHub username and password.&lt;/p&gt;
+&lt;h3 id=&quot;That’s-it&quot;&gt;&lt;a href=&quot;#That’s-it&quot; class=&quot;headerlink&quot; title=&quot;That’s it!&quot;&gt;&lt;/a&gt;That’s it!&lt;/h3&gt;&lt;p&gt;Your site is published. Open up your browser and enter the URL “your-user-name.github.io”.&lt;/p&gt;
+&lt;h2 id=&quot;Assign-a-custom-domain-name-to-your-website&quot;&gt;&lt;a href=&quot;#Assign-a-custom-domain-name-to-your-website&quot; class=&quot;headerlink&quot; title=&quot;Assign a custom domain name to your website&quot;&gt;&lt;/a&gt;Assign a custom domain name to your website&lt;/h2&gt;&lt;h3 id=&quot;Step-1-Create-an-AWS-account&quot;&gt;&lt;a href=&quot;#Step-1-Create-an-AWS-account&quot; class=&quot;headerlink&quot; title=&quot;Step 1: Create an AWS account&quot;&gt;&lt;/a&gt;Step 1: Create an AWS account&lt;/h3&gt;&lt;p&gt;Do this at &lt;a href=&quot;https://aws.amazon.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Amazon Web Services&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;Step-2-Register-your-domain&quot;&gt;&lt;a href=&quot;#Step-2-Register-your-domain&quot; class=&quot;headerlink&quot; title=&quot;Step 2: Register your domain&quot;&gt;&lt;/a&gt;Step 2: Register your domain&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Log into your AWS account and click on “Route 53” in the console under “Networking”.&lt;/li&gt;
+&lt;li&gt;On the next page, click “Get Started Now” under “Domain Registration”.&lt;/li&gt;
+&lt;li&gt;Click the button “Register Domain”.&lt;/li&gt;
+&lt;li&gt;Choose a domain name and then select a suffix, like [.com] or [.io].&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Wahey! You’re the now the proud owner of your very own custom domain name!&lt;/p&gt;
+&lt;h3 id=&quot;Step-3-Setting-Up&quot;&gt;&lt;a href=&quot;#Step-3-Setting-Up&quot; class=&quot;headerlink&quot; title=&quot;Step 3: Setting Up&quot;&gt;&lt;/a&gt;Step 3: Setting Up&lt;/h3&gt;&lt;p&gt;We still have a few things to do before your domain name can work:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Inform GitHub of the new domain name&lt;/li&gt;
+&lt;li&gt;Set up DNS records in Route 53&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&quot;Inform-GitHub&quot;&gt;&lt;a href=&quot;#Inform-GitHub&quot; class=&quot;headerlink&quot; title=&quot;Inform GitHub&quot;&gt;&lt;/a&gt;Inform GitHub&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Open GitHub and access the repo: [your-user-name.github.io]&lt;/li&gt;
+&lt;li&gt;Click the “New file” button.&lt;/li&gt;
+&lt;li&gt;Call it [CNAME] and do not add an extension.&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Open the file and add your custom domain name to line 1:&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;yourcustomdomain.com&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Commit the new file: &lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git commit -m &lt;span class=&quot;string&quot;&gt;&quot;Add CNAME file&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Under the title of the repo, click on “Settings”. Find the section “GitHub Pages” and check that there’s a message along the lines of:&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Your site is published at http://yourcustomdomain.com&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&quot;Set-up-DNS-records&quot;&gt;&lt;a href=&quot;#Set-up-DNS-records&quot; class=&quot;headerlink&quot; title=&quot;Set up DNS records&quot;&gt;&lt;/a&gt;Set up DNS records&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Access Route 53 on AWS&lt;/li&gt;
+&lt;li&gt;Click on “Hosted Zones” - you’ll notice a Hosted Zone for your domain name. Open it.&lt;/li&gt;
+&lt;li&gt;Confirm NS record:&lt;ol&gt;
+&lt;li&gt;Notice the Hosted Zone already has an NS record with four values. Take a note of these.&lt;/li&gt;
+&lt;li&gt;On the left, click “Registered domains” then click your domain name.&lt;/li&gt;
+&lt;li&gt;On the right, look for the section titled “Name Servers”. These should be the same as what was in the NS record in the Hosted Zone.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Create an A record:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;In your Hosted Zone, click the “Create Record Set” button. In the form, leave the “Name” field blank. Set the “Type” to [A - IPv4 address].&lt;/li&gt;
+&lt;li&gt;Set “TTL (Seconds)” to [300]&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the “Value” box, enter the following IP addresses:&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;192.30.252.153&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;192.30.252.154&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;These belong to GitHub.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Click “Save Record Set”.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Create a CNAME record&lt;ol&gt;
+&lt;li&gt;In your Hosted Zone, click the “Create Record Set” button.&lt;/li&gt;
+&lt;li&gt;Set “Name” to [www]&lt;/li&gt;
+&lt;li&gt;Set “Field” to [CNAME - Canonical name]&lt;/li&gt;
+&lt;li&gt;Set “Value” to [your-user-name.github.io]&lt;/li&gt;
+&lt;li&gt;Click “Save Record Set”.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;Aaaand-we’re-done&quot;&gt;&lt;a href=&quot;#Aaaand-we’re-done&quot; class=&quot;headerlink&quot; title=&quot;Aaaand we’re done!&quot;&gt;&lt;/a&gt;Aaaand we’re done!&lt;/h2&gt;&lt;p&gt;It should all be working now. If you go into your browser and enter your domain name into the URL you should be able to see your website.&lt;br&gt;Just to be sure, type the following into the terminal:&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;dig www.yourcustomdomain.com&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;If all goes well, you should see an [A] along with the two IP addresses. You should also see [CNAME] with your custom domain name and the GitHub default domain name.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I’m basing this post on the Codecademy course, &lt;a href=&quot;https://www.codecademy.com/courses/deploy-a-website&quot; target=&quot;_blank&quot; rel=&quot;externa
+    
+    </summary>
+    
+      <category term="Web Development" scheme="http://jthomson9.github.io/categories/Web-Development/"/>
+    
+    
+      <category term="Codecademy" scheme="http://jthomson9.github.io/tags/Codecademy/"/>
+    
+      <category term="Web" scheme="http://jthomson9.github.io/tags/Web/"/>
+    
+      <category term="AWS" scheme="http://jthomson9.github.io/tags/AWS/"/>
+    
+      <category term="GitHub" scheme="http://jthomson9.github.io/tags/GitHub/"/>
+    
+  </entry>
   
   <entry>
     <title>Suilven</title>
